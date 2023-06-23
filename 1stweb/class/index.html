@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=10">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<link rel="stylesheet" href="./bark_btn.css">
+  <link rel="stylesheet" href="./card6.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <button id="darkModeButton" onclick="toggleDarkMode()">🌙</button>
+  <!-- navbar -->
+  <!-- bg-transparent---to make make navbar transparent -->
+  <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
+      <div class="container-fluid sticky">
+
+        <a class="navbar-brand navbar_brand fw-bold" href="#">
+          <img src="./bootstrap-logo-shadow.png" alt="" width="30" height="24" class="d-inline-block align-text-top " />
+          Bootstrap
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- mx-auto=center,,me-Auto= from the first,,,ms-auto=ending-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 active" aria-current="page" href="#c1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5" href="#c2">About</a>
+            </li>
+            <!-- fs=front size -->
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-bold fs-5  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item fw-bold" href="#c3">Portfollo</a></li>
+                <li><a class="dropdown-item" href="#c4">Service</a></li>
+                <li><a class="dropdown-item" href="#c5">Blog</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#c6">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <div class="visible">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <button class="cv_btn btn-outline-success rounded-pill"><span><i
+                class="fa-solid fa-download fa-lg"></i></span> Download CV</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mycontainer " id="c1">
+      <div class="row">
+        <div class="col-md-5 col-12">
+          <div class="box1">
+            <img src="../img/logoForAnime/figma-logo.png" class="w-100" alt="" />
+          </div>
+          <div class="my_responsive heroTop">
+            <img src="../img/hero-thumbnail.png" class="w-100 " />
+            ``
+          </div>
+          <div class="box2">
+            <img src="../img/logoForAnime/photoshop-logo.png" class="w-100" alt="">
+          </div>
+        </div>
+        <div class="col-md-7 col-12 d-flex flex-column justify-content-center">
+          <p class="fw-bold" style="color: #ee5f38; font-style: italic; font-size: 22px;">HELLO I'M</p>
+          <h1 class="fw-bold" style="color: #000248;">MD SABBIR AHAMMED</h1>
+          <h4>Web and App Fullstack Developer </h4>
+          <p>There are many variations of sum availabled in alley of type and scrambled it some.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In exercitationem excepturi beatae tempore
+            commodi enim. Omnis culpa voluptates praesentium. Harum sed optio quibusdam totam ex dolorem dolor a nisi
+            voluptatum!</p>
+          <br><br><br><br><br>
+          <div class="hero__content--footer d-flex align-items-center">
+            <a class="btn about_btn fw-bold" href="#">About Me</a>
+            <div class="d-flex align-items-center">
+              <h5 class="social__share--title fw-bold ">Follow Me:</h5>
+              <ul class="social__share--wrapper social__share--title d-flex">
+                <button class="social__share social_btn rounded-circle">
+                  <a class="social__share--link" href="#">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px"
+                      height="20px">
+                      <path
+                        d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z" />
+                    </svg>
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </button>
+                <button class="social__share rounded-circle">
+                  <a class="social__share--link" href="#">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px"
+                      height="20px">
+                      <path
+                        d="M12,2C6.477,2,2,6.477,2,12c0,4.237,2.636,7.855,6.356,9.312c-0.087-0.791-0.167-2.005,0.035-2.868 c0.182-0.78,1.172-4.971,1.172-4.971s-0.299-0.599-0.299-1.484c0-1.391,0.806-2.428,1.809-2.428c0.853,0,1.265,0.641,1.265,1.408 c0,0.858-0.546,2.141-0.828,3.329c-0.236,0.996,0.499,1.807,1.481,1.807c1.777,0,3.143-1.874,3.143-4.579 c0-2.394-1.72-4.068-4.177-4.068c-2.845,0-4.515,2.134-4.515,4.34c0,0.859,0.331,1.781,0.744,2.282 c0.082,0.099,0.093,0.186,0.069,0.287c-0.076,0.316-0.244,0.995-0.277,1.134c-0.043,0.183-0.145,0.222-0.334,0.133 c-1.249-0.582-2.03-2.408-2.03-3.874c0-3.154,2.292-6.052,6.608-6.052c3.469,0,6.165,2.472,6.165,5.776 c0,3.447-2.173,6.22-5.189,6.22c-1.013,0-1.966-0.527-2.292-1.148c0,0-0.502,1.909-0.623,2.378 c-0.226,0.868-0.835,1.958-1.243,2.622C9.975,21.843,10.969,22,12,22c5.522,0,10-4.478,10-10S17.523,2,12,2z" />
+                    </svg>
+                    <span class="visually-hidden">Pinterest</span>
+                  </a>
+                </button>
+                <button class="social__share rounded-circle">
+                  <a class="social__share--link" href="#">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px"
+                      height="20px">
+                      <path
+                        d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z" />
+                    </svg>
+                    <span class="visually-hidden">Twitter</span>
+                  </a>
+                </button>
+                <button class="social__share rounded-circle">
+                  <a class="social__share--link" href="#">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px"
+                      height="20px">
+                      <path
+                        d="M 4 2 C 2.898438 2 2 2.898438 2 4 L 2 20 C 2 21.101563 2.898438 22 4 22 L 20 22 C 21.101563 22 22 21.101563 22 20 L 22 4 C 22 2.898438 21.101563 2 20 2 Z M 4 4 L 20 4 L 20 8 L 16.453125 8 C 15.355469 6.777344 13.765625 6 12 6 C 10.234375 6 8.644531 6.777344 7.546875 8 L 4 8 Z M 17 5 L 17 7 L 19 7 L 19 5 Z M 12 8 C 14.222656 8 16 9.777344 16 12 C 16 14.222656 14.222656 16 12 16 C 9.777344 16 8 14.222656 8 12 C 8 9.777344 9.777344 8 12 8 Z M 12 10 C 11.800781 10 11.601563 10 11.402344 10.097656 C 11.699219 10.300781 12 10.601563 12 11 C 12 11.601563 11.601563 12 11 12 C 10.601563 12 10.300781 11.800781 10.097656 11.402344 C 10 11.601563 10 11.800781 10 12 C 10 13.101563 10.898438 14 12 14 C 13.101563 14 14 13.101563 14 12 C 14 10.898438 13.101563 10 12 10 Z" />
+                    </svg>
+                    <span class="visually-hidden">Instagram</span>
+                  </a>
+                </button>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="c4">
+    <br>
+    <div class="container " style="margin-top: 20px;
+    padding-top: 50px;
+    margin-bottom: 40px;">
+      <div class="contain  ">
+        <div class="row">
+          <h4 style="color: #ee5f38;margin-bottom: 5px;">CREATIVE SERVICE</h4>
+          <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
+            <div class="visible display">
+
+              <h2 class="fw-bold">What can i do for service clients you</h2>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
+            <P> Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back
+              for
+              services Makes best effort.</P>
+          </div>
+        </div>
+      </div>
+      <div class="contain ">
+        <div class="row">
+          <div class="col-md-4 col-12 ">
+            <div class="card  shadow">
+              <div class="overlay"></div>
+              <div class="card-body ">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary ">Go somewhere</a>
+                <div class="boxs1 rounded-circle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 ">
+            <div class="card shadow">
+              <div class="overlay"></div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 ">
+            <div class="card shadow">
+              <div class="overlay"></div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 ">
+            <div class="card shadow">
+              <div class="overlay"></div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 ">
+            <div class="card shadow">
+              <div class="overlay"></div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 ">
+            <div class="card  shadow">
+              <div class="overlay"></div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about ">
+
+    <div class="container mycontainer " id="c2">
+      <div class="row myrow">
+        <div class="col-md-6 col-12">
+          <h4 style="color: #ee5f38;">About ME</h4>
+          <h1 class="fw-bold">I can design world for <br>leading ui/ux</h1><br>
+          <h4 style="color: #ee5f38;">PERSONAL INFOS:</h4><br>
+          <div class="listses">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <ol class="list_group">
+                  <li><i class="fa-regular fa-circle-dot space"></i>First Name: Maras</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Address: Dubai</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Age: 24 Years</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Nationality: Tunisian</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Freelance: Available</li>
+                </ol>
+              </div>
+              <div class="col-md-6 col-12">
+                <ol class="list_group ">
+                  <li><i class="fa-regular fa-circle-dot space"></i>Last Name: Faron</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Phone: +28921184010</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Email: you@mail.com</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Skype: Roben.Boris</li>
+                  <li><i class="fa-regular fa-circle-dot space"></i>Languages: French, English</li>
+
+                </ol>
+              </div>
+            </div>
+          </div>
+          <br>
+          <a class="btn Hire_btn fw-bold " href="#">Hire Me</a>
+        </div>
+        <div class="col-md-6 col-12 " style="z-index: 15;">
+          <div class="combination">
+            <a class="aboutimg"> <img src="../img/others/about.png.png" alt=""></a>
+            <div class="about__thumbnail rounded-circle ">
+            </div>
+            <div class="col-md-12 col-12" style="text-align: center;">
+              <p class="text title_stroke" style="font-size: 6vw; text-align: center;">27+</p>
+              <h2 style="margin-top: -20; padding-bottom: 60px;">Experience Working</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="container mycontainer2">
+    <div class="row-12">
+      <div class="wrapper ">
+      
+        <img class="logoCR" src="../img/logo/dark-log-1.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-2.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-3.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-4.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-5.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-6.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-7.png.png" alt="">
+        <img class="logoCR" src="../img/logo/dark-log-8.png.png" alt="">
+      </div>
+    </div>
+  </div> -->
+  <section>
+    <div class="container mycontainer2 ">
+      <div>
+        <div class="row">
+          <div class="col-md-3 col-12 logoCR"><img src="../img/logo/dark-log-1.png.png" alt=""></div>
+          <div class="col-md-3 col-12 logoCR"><img src="../img/logo/dark-log-2.png.png" alt=""></div>
+
+          <div class="col-md-3 col-12 logoCR"><img src="../img/logo/dark-log-3.png.png" alt=""></div>
+          <div class="col-md-3 col-12 logoCR" style="border-right: 0;"><img src="../img/logo/dark-log-4.png.png" alt=""></div>
+          <div class="col-md-3 col-12 logoCR logo2"><img src="../img/logo/dark-log-5.png.png" alt=""></div>
+          <div class="col-md-3 col-12 logoCR logo2"><img src="../img/logo/dark-log-6.png.png" alt=""></div>
+
+          <div class="col-md-3 col-12 logoCR logo2"><img src="../img/logo/dark-log-7.png.png" alt=""></div>
+          <div class="col-md-3 col-12 logoCR logo2" style="border-right: 0;"><img src="../img/logo/dark-log-8.png.png" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr style="border: solid 1px black;">
+  </section>
+  <section>
+    <div class="container " style="padding-top: 60px;">
+      <h4 class="fw-bold" style="color: #ee5f38;">EXPERICNCE AND EDUCATION</h4>
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <h1 style="padding-bottom: 20px;">Resume of Experience and Education</h1>
+          <!-- <div class="border__position--style"></div>
+        <div class="border__round"></div> -->
+          <div class="row">
+            <div class="col-md-1 col-12">a</div>
+            <div class="col-md-2 col-12"><span class=" icon_style  rounded-circle "><i
+                  class="fa-solid fa-briefcase fa-xl"></i></span>
+            </div>
+            <div class="col-md-8 col-12">
+              <div class="info">
+                <p class="fw-bold " style="font-size: 27px;">API DEVELOPER <span class="institute rounded-pill "
+                    style="margin-left: 10px; background-color: #ee5f38; padding: 5px 10px; font-size: 17px;"> SHOPIFY
+                </p>
+                </span>
+                <p style="font-size: 18px;">Promote your blog posts, case udie, and product ouncems nts with thehe
+                  branded
+                  videos.</p>
+                <ol style="list-style: square; font-size: 20px; color:#ee5f38; margin-left: -10px;">
+                  <li>2021</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-1 col-12">a</div>
+            <div class="col-md-2 col-12"><span class=" icon_style  rounded-circle "><i
+                  class="fa-solid fa-briefcase fa-xl"></i></span>
+            </div>
+            <div class="col-md-8 col-12">
+              <div class="info">
+                <p class="fw-bold " style="font-size: 27px;">WEB DEVELOPERR <span class="institute rounded-pill "
+                    style="margin-left: 10px; background-color: #ee5f38; padding: 5px 10px; font-size: 17px;"> ENVATO
+                </p>
+                </span>
+                <p>Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                <ol style="list-style: square; font-size: 20px; color:#ee5f38; margin-left: -10px;">
+                  <li>2017</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1 col-12">a</div>
+            <div class="col-md-2 col-12"><span class=" icon_style  rounded-circle "><i
+                  class="fa-solid fa-briefcase fa-xl"></i></span>
+            </div>
+            <div class="col-md-8 col-12">
+              <div class="info">
+                <p class="fw-bold " style="font-size: 27px;">UI/UX DESIGNER <span class="institute rounded-pill "
+                    style="margin-left: 10px; background-color: #ee5f38; padding: 5px 10px; font-size: 17px;"> UDEMY</p>
+                </span>
+                <p>Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                <ol style="list-style: square; font-size: 20px; color:#ee5f38; margin-left: -10px;">
+                  <li>2014</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-12">
+          <h5 style="padding-bottom: 22px;">Promote your blog posts, case udie, and product ouncems with the the branded
+            videoscustomers coming back
+            for
+            services Makes best effort.</h5>
+          <div class="row" style="padding-top: 22px;">
+            <div class="col-md-1 col-12">a</div>
+            <div class="col-md-2 col-12"><span class=" icon_style  rounded-circle "><i
+                  class="fa-solid fa-briefcase fa-xl"></i></span>
+            </div>
+            <div class="col-md-8 col-12">
+              <div class="info">
+                <p class="fw-bold " style="font-size: 27px;">API DEVELOPER <span
+                    class="institute rounded-pill fw-normal"
+                    style="margin-left: 10px; background-color: #ee5f38; padding: 5px 10px; font-size: 15px;"> CAMBRIDGE
+                    UNIVERSITY</p>
+                </span>
+                <p style="font-size: 18px;">Promote your blog posts, case udie, and product ouncems nts with thehe
+                  branded
+                  videos.</p>
+                <ol style="list-style: square; font-size: 20px; color:#ee5f38; margin-left: -10px;">
+                  <li>2020</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1 col-12">a</div>
+            <div class="col-md-2 col-12"><span class=" icon_style  rounded-circle "><i
+                  class="fa-solid fa-briefcase fa-xl"></i></span>
+            </div>
+            <div class="col-md-8 col-12">
+              <div class="info">
+                <p class="fw-bold " style="font-size: 27px;">Master's Degree <span class="institute rounded-pill "
+                    style="margin-left: 10px; background-color: #ee5f38; padding: 5px 10px; font-size: 17px;"> OXFORD
+                    UNIVERSITY</p>
+                </span>
+                <p>Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                <ol style="list-style: square; font-size: 20px; color:#ee5f38; margin-left: -10px;">
+                  <li>2018</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1 col-12">a</div>
+            <div class="col-md-2 col-12"><span class=" icon_style  rounded-circle "><i
+                  class="fa-solid fa-briefcase fa-xl"></i></span>
+            </div>
+            <div class="col-md-8 col-12">
+              <div class="info">
+                <p class="fw-bold " style="font-size: 27px;">Bachelor's Degree <span class="institute rounded-pill "
+                    style="margin-left: 10px; background-color: #ee5f38; padding: 5px 10px; font-size: 17px;"> KIEV
+                    UNIVERSITY</p>
+                </span>
+                <p>Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                <ol style="list-style: square; font-size: 20px; color:#ee5f38; margin-left: -10px;">
+                  <li>2015</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container " style="margin-top: 5vw;">
+        <h4 style="color: #ee5f38;">SKILLs</h4>
+        <div class="row">
+          <div class="col-md-6 col-12">
+
+            <h1 style="margin-bottom: 40px;">Skill of Best Masters Software Skills.</h1>
+            <div>
+              <p>Node.js<span class="skills__count width_60"> &nbsp;&nbsp;---->(60%)</span></p>
+
+              <div class="progress myprogress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <p>JavaScript<span class="skills__count width_60"> &nbsp;&nbsp;---->(75%)</span></p>
+              <div class="progress myprogress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <p>Web Design<span class="skills__count width_60"> &nbsp;&nbsp;---->(90%)</span></p>
+              <div class="progress myprogress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back
+              for services Makes best effort</p>
+            <div style="margin-top: 88px;">
+              <p>Html<span class="skills__count width_60"> &nbsp;&nbsp;---->(100%)</span></p>
+              <div class="progress myprogress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <p>CSS<span class="skills__count width_60"> &nbsp;&nbsp;---->(90%)</span></p>
+              <div class="progress myprogress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <p>React.js<span class="skills__count width_60"> &nbsp;&nbsp;---->(70%)</span></p>
+              <div class="progress myprogress" style="height: 5px;">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="c3">
+    <div class="portfolio" >
+      <div class="container " style="margin-top: 5vw; ">
+        <h4 style="color: #ee5f38;margin-bottom: 5px;">PORTFOLIO</h4>
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h1>Never compromise for portfolio quality</h1>
+          </div>
+          <div class="col-md-6 col-12">
+            <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back
+              for services Makes best effort.</p>
+          </div>
+        </div>
+
+
+
+        <div>
+          <div class="row my_button">
+            <button class="button">Show All</button>
+            <button class="button" onclick="welcome()">Bootstrap</button>
+            <button class="button">Graphics</button>
+            <button class="button">Development</button>
+            <button class="button" onclick="alartMsz()">alartMsz</button>
+            <!-- <button class="button" onclick="alartMsz(getElementById('demo').innerHTML=Date())">What is the time?</button> -->
+          </div>
+        </div>
+        <div class="flex">
+
+          <h1>HTML DOM Events</h1>
+          <span>The onclick Event</span>
+          <span>Click to display the time.</span>
+          <button class="button" onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+          <p id="demo"></p>
+
+        </div>
+      </div>
+      <div class="container mycontainer3 ">
+        <div class="row">
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 cardM">
+            <div class="portfolio_card">
+              <img src="./card.jpeg" class="card_img" alt="">
+              <div class="card_body">
+                <h1 class="card_title"> Title</h1>
+                <p class="card_sub_title">Lorem ipsum dolor sit amet</p>
+                <p class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores itaque
+                  corrupti et incidunt tenetur. Ad cum praesentium consectetur odio.</p>
+                <button class="card_btn">Tour</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+    </div>
+  </section>
+  <!-- style="height:500px; width:400px; " -->
+  <section>
+    <div class="container mycontainer3 " id="">
+      <h4>TESTIMONIALS</h4>
+      <h1>We are people say me</h1>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carousel">
+          <div class="carousel-item active">
+            <img src="./card.jpeg" class="d-block  img" style="height: 33vw;
+            width:38vw;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/others/portfolio2.png.png" class="d-block  img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/others/portfolio3.png.png" class="d-block  img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="c6" class="contact" >
+    <div class="container mycontainer3">
+
+      <div class="row ">
+        <h4 style="color: #ee5f38;">CONTACT</h4>
+        <h1>Get I contact work</h1>
+
+        <div class="col-md-7 col-12">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio magnam fugiat voluptates blanditiis
+            error hic. Omnis doloribus molestiae quos id?</p>
+          <form>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-md-6 col-12 mb-4">
+                  <input type="name" class="form-control" style="border-radius: 10px;" id="exampleFormControlInput1"
+                    placeholder="  Your Name" required>
+                </div>
+                <div class="col-md-6 col-12 mb-4">
+                  <input type="email" class="form-control" style="border-radius: 10px;" id="exampleFormControlInput1"
+                    placeholder="  Your Gmail" required>
+                </div>
+                <div class="col-md-12 col-12 mb-4">
+                  <textarea class="form-control commentbox" style="border-radius: 10px;"
+                    id="exampleFormControlTextarea1" placeholder=" Message" rows="5" required></textarea>
+                </div>
+                <button class="send_button" onclick="submitForm()">Send Request</button>
+
+              </div>
+
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-2 col-12" style="padding-left: 140px;">
+          <span class=" icon_style  rounded-circle " style="margin-bottom: 38px; margin-top: 5px;"><i
+              class="fa-solid fa-phone fa-xl"></i></span>
+          <span class=" icon_style  rounded-circle " style="margin-bottom: 38px;"><i
+              class="fa-solid fa-envelope fa-xl"></i></span>
+          <span class=" icon_style  rounded-circle " style="margin-bottom: 38px;"><i
+              class="fa-solid fa-envelope fa-xl"></i></span>
+        </div>
+
+        <div class="col-md-3 col-12">
+          <h4>Call Me</h4>
+          <h5>+880254615566 <br>+880254615566</h5>
+          <h4>Email Us</h4>
+          <h5>info@example.com <br>info@example.com</h5>
+          <h4>Address</h4>
+          <h5>20, 25 Dhaka,0123<br>Ratrba baraj,20</h5>
+        </div>
+      </div>
+      <div class="myMap" style="margin-top: 50px; top: -50%;">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.150382269581!2d-77.03910472440305!3d38.89767627172412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86d0b76bf!2sThe%20White%20House!5e0!3m2!1sen!2sbd!4v1687436123822!5m2!1sen!2sbd"
+          width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+  </section>
+
+
+
+  <section id="c5" style="padding-top: 40px;">
+    <div class="container " style="margin-top: 20px; padding-top: 50px;">
+      <div>
+        <h4 style="text-align: left; color: #ee5f38;">LATEST BLOGS</h4>
+        <div class="row" style="margin-bottom: 40px;">
+          <div class="col-md-7 col-12 fw-bold ">
+            <h1 style="font-size: 50px;">Blog Latest of News tricks & Updates</h1>
+          </div>
+          <div class="col-md-5 col-12">
+            Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for
+            services Makes best effort.
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class=" blog_cards">
+            <img src="./card.jpeg" class="vlogCard_img " style="width: 25vw;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #ee5f38;">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-12">
+          <div class=" blog_cards">
+            <img src="./card.jpeg" class="vlogCard_img" style="width: 25vw;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #ee5f38;">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-12">
+          <div class=" blog_cards">
+            <img src="./card.jpeg" class="vlogCard_img" style="width: 25vw;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #ee5f38;">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- Here's an example of HTML code that creates a card with an image, text, and title. When you click anywhere on the card, a details bar will pop up with an image, title, and details in a mini display. -->
+  <!-- that also need an java script for that action -->
+  <section>
+    <div class="container " style="margin-bottom: 50px;">
+      <div class="mycontainer4">
+
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="Tooglecard" onclick="toggleDetails()">
+              <div>
+                <img src="../img/others/portfolio1.png.png" class="img" alt="Image">
+                <h2>Title</h2>
+                <p>Some text here...</p>
+                <div class="details overflow-scroll" id="details">
+                  <span class="close" onclick="toggleCloseDetails()"><i class="fa-solid fa-xmark fa-2xl"></i></span>
+                  <div>
+
+
+                    <img class="Tooglecard_img" src="../img/others/portfolio1.png.png" alt="Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, debitis nulla dolore voluptatem
+                      ab
+                      quae?
+                      Quidem voluptatibus illo adipisci dolor impedit pariatur! Maxime exercitationem corrupti saepe
+                      voluptatibus, perferendis repudiandae expedita harum! Itaque rerum sunt dolor dolorem inventore.
+                      Consequatur repellendus accusantium, excepturi accusamus labore quis non architecto deleniti omnis
+                      pariatur voluptatem ipsa at illo deserunt quos id iste odio quam quas unde! Obcaecati, rerum vero
+                      sequi
+                      id
+                      ea praesentium explicabo. Sequi eum fugiat esse quidem fuga impedit in, quae fugit. Dicta eligendi
+                      harum
+                      reprehenderit corrupti necessitatibus, voluptatum beatae soluta doloribus blanditiis. Libero
+                      distinctio
+                      veritatis quae voluptatem expedita, debitis autem iure suscipit animi accusantium quia optio
+                      adipisci
+                      soluta dolorem deleniti eveniet, aliquid praesentium asperiores ducimus veniam ea in dolor! Fugiat
+                      est
+                      reiciendis labore adipisci temporibus mollitia nobis fugit magnam blanditiis officia ut
+                      consectetur
+                      cum
+                      tenetur asperiores voluptas magni earum, repellat obcaecati aliquam. Molestiae labore ut hic
+                      sapiente
+                      adipisci repellendus asperiores, maiores optio ad, vel sit harum fugiat explicabo, ex officiis
+                      dolorem
+                      error! Nam voluptatum temporibus cumque recusandae dignissimos maxime quos at porro quam.
+                      Quibusdam
+                      recusandae sed dolores iusto, ipsum consequuntur natus temporibus autem enim. Quod, eum? Cumque
+                      earum
+                      minus perferendis aliquam impedit nihil illum, ullam reprehenderit, sequi consequatur neque enim
+                      explicabo
+                      commodi delectus, repudiandae veritatis facere iusto! Beatae, quibusdam similique nobis molestiae
+                      autem
+                      necessitatibus cupiditate minus vel! Minima nam autem enim repellendus voluptatibus doloribus in
+                      animi.
+                      Voluptate esse quibusdam nemo officiis accusamus delectus, omnis ducimus earum similique
+                      architecto
+                      eum
+                      nobis vitae iure numquam quia totam quisquam magnam consequatur accusantium odio dignissimos porro
+                      blanditiis qui! Ut aut necessitatibus nulla voluptates illo eius nam praesentium aliquam impedit,
+                      quae
+                      vero eligendi laboriosam similique magnam aperiam est ipsum voluptatem quasi consequatur
+                      blanditiis
+                      incidunt, repudiandae dignissimos vel minus! Odit praesentium, blanditiis beatae nostrum
+                      consequatur
+                      quaerat excepturi expedita enim, illum iure recusandae tenetur numquam tempore repellendus
+                      voluptas
+                      quisquam..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12">
+            <div class="Tooglecard" onclick="toggleDetails()">
+              <div>
+                <img src="../img/others/portfolio1.png.png" class="img" alt="Image">
+                <h2>Title</h2>
+                <p>Some text here...</p>
+                <div class="details overflow-scroll" id="details">
+                  <span class="close" onclick="toggleCloseDetails()"><i class="fa-solid fa-xmark fa-2xl"></i></span>
+                  <div>
+
+
+                    <img class="Tooglecard_img" src="../img/others/portfolio1.png.png" alt="Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, debitis nulla dolore voluptatem
+                      ab
+                      quae?
+                      Quidem voluptatibus illo adipisci dolor impedit pariatur! Maxime exercitationem corrupti saepe
+                      voluptatibus, perferendis repudiandae expedita harum! Itaque rerum sunt dolor dolorem inventore.
+                      Consequatur repellendus accusantium, excepturi accusamus labore quis non architecto deleniti omnis
+                      pariatur voluptatem ipsa at illo deserunt quos id iste odio quam quas unde! Obcaecati, rerum vero
+                      sequi
+                      id
+                      ea praesentium explicabo. Sequi eum fugiat esse quidem fuga impedit in, quae fugit. Dicta eligendi
+                      harum
+                      reprehenderit corrupti necessitatibus, voluptatum beatae soluta doloribus blanditiis. Libero
+                      distinctio
+                      veritatis quae voluptatem expedita, debitis autem iure suscipit animi accusantium quia optio
+                      adipisci
+                      soluta dolorem deleniti eveniet, aliquid praesentium asperiores ducimus veniam ea in dolor! Fugiat
+                      est
+                      reiciendis labore adipisci temporibus mollitia nobis fugit magnam blanditiis officia ut
+                      consectetur
+                      cum
+                      tenetur asperiores voluptas magni earum, repellat obcaecati aliquam. Molestiae labore ut hic
+                      sapiente
+                      adipisci repellendus asperiores, maiores optio ad, vel sit harum fugiat explicabo, ex officiis
+                      dolorem
+                      error! Nam voluptatum temporibus cumque recusandae dignissimos maxime quos at porro quam.
+                      Quibusdam
+                      recusandae sed dolores iusto, ipsum consequuntur natus temporibus autem enim. Quod, eum? Cumque
+                      earum
+                      minus perferendis aliquam impedit nihil illum, ullam reprehenderit, sequi consequatur neque enim
+                      explicabo
+                      commodi delectus, repudiandae veritatis facere iusto! Beatae, quibusdam similique nobis molestiae
+                      autem
+                      necessitatibus cupiditate minus vel! Minima nam autem enim repellendus voluptatibus doloribus in
+                      animi.
+                      Voluptate esse quibusdam nemo officiis accusamus delectus, omnis ducimus earum similique
+                      architecto
+                      eum
+                      nobis vitae iure numquam quia totam quisquam magnam consequatur accusantium odio dignissimos porro
+                      blanditiis qui! Ut aut necessitatibus nulla voluptates illo eius nam praesentium aliquam impedit,
+                      quae
+                      vero eligendi laboriosam similique magnam aperiam est ipsum voluptatem quasi consequatur
+                      blanditiis
+                      incidunt, repudiandae dignissimos vel minus! Odit praesentium, blanditiis beatae nostrum
+                      consequatur
+                      quaerat excepturi expedita enim, illum iure recusandae tenetur numquam tempore repellendus
+                      voluptas
+                      quisquam..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12">
+            <div class="Tooglecard" onclick="toggleDetails()">
+              <div>
+                <img src="../img/others/portfolio1.png.png" class="img" alt="Image">
+                <h2>Title</h2>
+                <p>Some text here...</p>
+                <div class="details overflow-scroll" id="details">
+                  <span class="close" onclick="toggleCloseDetails()"><i class="fa-solid fa-xmark fa-2xl"></i></span>
+                  <div>
+
+
+                    <img class="Tooglecard_img" src="../img/others/portfolio1.png.png" alt="Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, debitis nulla dolore voluptatem
+                      ab
+                      quae?
+                      Quidem voluptatibus illo adipisci dolor impedit pariatur! Maxime exercitationem corrupti saepe
+                      voluptatibus, perferendis repudiandae expedita harum! Itaque rerum sunt dolor dolorem inventore.
+                      Consequatur repellendus accusantium, excepturi accusamus labore quis non architecto deleniti omnis
+                      pariatur voluptatem ipsa at illo deserunt quos id iste odio quam quas unde! Obcaecati, rerum vero
+                      sequi
+                      id
+                      ea praesentium explicabo. Sequi eum fugiat esse quidem fuga impedit in, quae fugit. Dicta eligendi
+                      harum
+                      reprehenderit corrupti necessitatibus, voluptatum beatae soluta doloribus blanditiis. Libero
+                      distinctio
+                      veritatis quae voluptatem expedita, debitis autem iure suscipit animi accusantium quia optio
+                      adipisci
+                      soluta dolorem deleniti eveniet, aliquid praesentium asperiores ducimus veniam ea in dolor! Fugiat
+                      est
+                      reiciendis labore adipisci temporibus mollitia nobis fugit magnam blanditiis officia ut
+                      consectetur
+                      cum
+                      tenetur asperiores voluptas magni earum, repellat obcaecati aliquam. Molestiae labore ut hic
+                      sapiente
+                      adipisci repellendus asperiores, maiores optio ad, vel sit harum fugiat explicabo, ex officiis
+                      dolorem
+                      error! Nam voluptatum temporibus cumque recusandae dignissimos maxime quos at porro quam.
+                      Quibusdam
+                      recusandae sed dolores iusto, ipsum consequuntur natus temporibus autem enim. Quod, eum? Cumque
+                      earum
+                      minus perferendis aliquam impedit nihil illum, ullam reprehenderit, sequi consequatur neque enim
+                      explicabo
+                      commodi delectus, repudiandae veritatis facere iusto! Beatae, quibusdam similique nobis molestiae
+                      autem
+                      necessitatibus cupiditate minus vel! Minima nam autem enim repellendus voluptatibus doloribus in
+                      animi.
+                      Voluptate esse quibusdam nemo officiis accusamus delectus, omnis ducimus earum similique
+                      architecto
+                      eum
+                      nobis vitae iure numquam quia totam quisquam magnam consequatur accusantium odio dignissimos porro
+                      blanditiis qui! Ut aut necessitatibus nulla voluptates illo eius nam praesentium aliquam impedit,
+                      quae
+                      vero eligendi laboriosam similique magnam aperiam est ipsum voluptatem quasi consequatur
+                      blanditiis
+                      incidunt, repudiandae dignissimos vel minus! Odit praesentium, blanditiis beatae nostrum
+                      consequatur
+                      quaerat excepturi expedita enim, illum iure recusandae tenetur numquam tempore repellendus
+                      voluptas
+                      quisquam..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section class="footer" >
+    <div class="container mycontainer">
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <h5>Developed with by SABBIR ©2023</h5>
+        </div>
+        <div class="col-md-4 col-12">
+          <h5 style="text-align: end;">Terms & Condition &nbsp; Privacy Policy<span id="upButton"
+              onclick="scrollToTop()"><i class="fa-solid fa-arrow-up fa-2xl"></i></span></h5>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  </body>
+
+</html>

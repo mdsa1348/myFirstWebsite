@@ -1,0 +1,45 @@
+body {
+    transition: background-color 0.3s;
+  }
+
+  .dark-mode {
+    background-color: #1b1b1b;
+    color: #fff;
+   
+    .header{
+        background: #1b1b1b;
+    }
+    .card{
+        background-color: black;
+    }
+    .about{
+        background: #1b1b1b;
+    }
+    .portfolio{
+        background-color: #1b1b1b;
+    }
+    .contact{
+        background: #1b1b1b;
+    }
+    .footer{
+        background: #1b1b1b;
+    }
+  }
+
+  #darkModeButton {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9999;
+  }
