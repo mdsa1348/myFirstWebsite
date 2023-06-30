@@ -18,6 +18,9 @@
     margin-left: 33px;
 }
 
+.nav_link{
+    font-size: 20px;
+}
 /* .sticky {
     position: fixed;
     width: 100%;
@@ -39,9 +42,13 @@
     font-weight: 500;
     border: 1px solid #ee5f38;
     background-color: rgb(215, 117, 46);
-    color: #faf4f2;
+    
     -webkit-box-shadow: inherit;
     box-shadow: inherit;
+    
+}
+.cv_text{
+    color: #f8f5f5;
 }
 
 .cv_btn:hover {
@@ -54,6 +61,7 @@
 }
 
 .mycontainer {
+    display: block;
     margin-top: 20px;
     padding-top: 60px;
     margin-bottom: 40px;
@@ -297,7 +305,7 @@ ul {
 .listses {
     padding: 0;
     margin: 0;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: 450;
 }
 
@@ -353,12 +361,17 @@ ul {
     width: 38vw;
     z-index: 20;
 }
+.about_img{
+    margin-left: 50px;
+    
+}
 
 .about__thumbnail {
     position: relative;
     content: "";
-    width: 12rem;
+    max-width: 12rem;
     height: 12rem;
+    margin-left: 20px;
     border: 13px solid #ee5f38;
     border-radius: 50%;
     z-index: -10;
@@ -407,6 +420,7 @@ ul {
     color: white;
     margin-top: -180px;
     margin-bottom: -15px;
+    font-size: 6vw; text-align: center;
 
 }
 
@@ -451,6 +465,9 @@ ul {
 
 .logo2 {
     border-right: 1px solid black;
+    border-bottom: 0;
+}
+.logo{
     border-bottom: 0;
 }
 
@@ -520,7 +537,10 @@ ul {
 .skills__count.width_60 {
     left: 58%;
 } */
-
+.width_6 {
+    left: 0;
+    margin-top: 88px;
+}
 .button {
     border: none;
     display: flex;
@@ -606,6 +626,8 @@ ul {
     /*  margin-right: 20px; */
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 55px;
+   /*  height: 33vw;
+    width:38vw; */
 }
 
 
@@ -645,6 +667,9 @@ padding-bottom: 6vw;
 .send_button:hover{
     background-color: black;
 }
+.pl{
+    padding-left: 140px;
+}
 .myMap{
     bottom: 20vw;
     display: flex;
@@ -664,10 +689,14 @@ padding-bottom: 6vw;
     background-color: #ee5f38;
     margin-bottom: 10px;
 }
+.blog_cards p{
+    font-size: 10px  ;
+}
 .vlogCard_img{
     height: fit-content;
     width: fit-content;
     padding-right: 20px;
+    width: 25vw;
 }
 .blog_cards:hover{
     /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -714,6 +743,7 @@ padding-bottom: 6vw;
     padding: 10px;
     cursor: pointer;
     position: relative;
+    border-radius: 8px;
     transition: .5s all ease-in-out;
     margin-bottom: 20px;
     
@@ -757,9 +787,15 @@ padding-bottom: 6vw;
 }
 
 .close {
-    float: right;
+    
     cursor: pointer;
+    z-index: 1000;
+    position: fixed;
+    top: 5%;
+    right: 5px;
+    transform: translateY(-100%);
     transition: 1s all ease-in-out;
+    margin-bottom: 10px;
 }
 .arrowup{
     padding-left: 60px;
@@ -781,5 +817,319 @@ padding-bottom: 6vw;
     line-height: 50px;
     text-align: center;
     cursor: pointer;
+    z-index: 1000;
   }
+
+
+
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        display: block;
+        width: 100%;
+    }
+    .navbar_brand {
+        margin-left: -60px;
+    }
+    .navbar-toggler{
+        margin-right: -60px !important ;
+    }
+    .nav-item{
+        display: block;
+        justify-content: end;
+        text-align: end;
+    }
+    
+    .nav_link{
+        font-size: 15px !important;
+    }
+    .cv_btn {
+        border-radius: 50px;
+        padding: 0.5rem 1.4rem;
+        margin-right: 25px;
+        margin-left: 60px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: 500;
+        border: 1px solid #ee5f38;
+        background-color: rgb(215, 117, 46);
+        -webkit-box-shadow: inherit;
+        box-shadow: inherit;
+    }
+    .mycontainer{
+        display: block;
+        width: 100%;
+    }
+    .aboutimg img{
+        /* padding-bottom: 10vw; */
+        height: 80vw;
+        width: 415px;
+        z-index: 20;
+    }
+    .box1 {
+        padding: 0;
+        margin: -15px;
+        width: 13vw;
+        height: 13vw;
+    
+        position: absolute;
+        z-index: 100;
+        animation: animation1 12s infinite;
+    }
+    
+    @keyframes animation1 {
+        0% {
+            /* background: red; */
+            top: 0;
+            left: 0;
+            transform: translateX(4.5vw) translateY(45vw);
+        }
+    
+        50% {
+            /* background: rgb(6, 6, 6); */
+            left: 0;
+            bottom: 0;
+    
+            transform: translateX(4.5vw) translateY(85vw);
+        }
+    
+        100% {
+            /*  background: red; */
+            top: 0;
+            left: 0;
+            transform: translateX(4.5vw) translateY(45vw);
+        }
+    
+    
+    }
+
+    .box2 {
+        width: 15vw;
+        height: 15vw;
+    
+        position: absolute;
+        z-index: 100;
+        animation: animation2 14s infinite;
+    }
+    
+    @keyframes animation2 {
+        0% {
+            /* background: red; */
+            top: 0;
+            left: 0;
+            transform: translateX(83.5vw) translateY(42vw);
+        }
+    
+        50% {
+            /* background: rgb(6, 6, 6); */
+            left: 0;
+            bottom: 0;
+    
+            transform: translateX(83.5vw) translateY(84vw);
+        }
+    
+        100% {
+            /*  background: red; */
+            top: 0;
+            left: 0;
+            transform: translateX(83.5vw) translateY(42vw);
+        }
+    
+    
+    }
+
+
+    .hero__content--footer{
+        margin-top: -100px;
+        
+        display: block;
+        justify-content: center;
+    }
+    .about_btn {
+        
+        font-size: 3.6vw;
+        
+    }
+    .social__share--title {
+        padding-right: 0px;
+        margin-right: 10px;
+        color: #414040;
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+    
+    .social__share--link {
+        width: 6.5vw;
+        height: 6.5vw;
+        
+    }
+    .card {
+        height: 55vw;
+        width: 45vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .listses {
+        padding: 0;
+        margin: 0;
+        font-size: 3.2vw;
+        font-weight: 450;
+    }
+    .Hire_btn {
+        border-radius: 50vw;
+        padding: 0.7vw 2.4vw;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-size: 3.6vw;
+        
+    }
+    .about_img{
+        margin-left: 50px;
+        width: 360px !important;
+        margin-bottom: 30px;
+    }
+    .about__thumbnail {
+        margin-left: 30px;
+        width: 10rem !important;
+        height: 10rem !important;
+        
+    }
+    .logo{
+        border-bottom: 1px solid black;
+    }
+    .icon_style {
+        width: 10vw !important;
+        height: 10vw !important;
+        margin-left: 5px;
+    
+    }
+    .text {
+
+        color: white;
+        margin-top: -180px;
+        margin-bottom: -15px;
+        font-size: 10vw; 
+        text-align: center;
+    
+    }
+    .institute {
+        margin-left: 17px !important;
+        font-weight: normal;
+    }
+    
+    .info{
+        margin-left: 0px !important;
+    }
+    .width_6 {
+        margin-top: 0px !important;
+    }
+    .cardM {
+        /*  margin-right: 20px; */
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 55px;
+        
+    }
+    .portfolio_card {
+        width: 45vw;
+        height: 60vw;
+        margin: -19px 0;
+        
+    }
+    .card_title{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500px;
+    }
+    .card_sub_title{
+        text-transform: capitalize;
+        font-size: 10px;
+        font-weight: 300px;
+    }
+    .card_info{
+        font-size: 10px;
+        line-height: 20px;
+        margin: 0px 0;
+        font-weight: 400;
+    }
+    .pl{
+        padding-left: 60px;
+    }
+    .mycontainer3 {
+
+        margin-top: 20px;
+        padding-top: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-bottom: 20px; */
+    }
+    .blog_cards{
+        height: 85vw;
+        width: 45vw;
+        padding: 10px;
+        /* padding: 15px 15px 15px 15px; */
+        background-color: #ee5f38;
+        margin-bottom: 10px;
+    }
+    .blog_cards.card-text{
+        font-size: 15px !important ;
+    }
+    .vlogCard_img{
+        height: 40vw;
+        width: 170px;
+        padding-right: 0px;
+    }
+    .Tooglecard {
+        width: 45vw;
+        border-radius: 8px;
+        
+        
+    }
+    .Tooglecard_img{
+        height: 66vw;
+        width: fit-content;
+        padding: 20px;
+    
+    }
+    .details {
+        width: 350px;
+        height: 600px;
+        margin-top: 20vw;
+        margin-bottom: 30px;
+        
+    }
+    .myMap{
+        height: fit-content;
+        width: 425px;
+    }
+    .myMap iframe{
+        width: 425px;
+    }
+    .c3 my_button{
+        width: 425px;
+    }
+    .my_button {
+        display: grid;
+        padding: 2vw 0;
+    
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: .5px;
+    
+    }
+
+    .footer h5{
+        font-size: 10px;
+    }
+  }
+
+
 
