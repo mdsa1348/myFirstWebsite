@@ -836,7 +836,7 @@ padding-bottom: 6vw;
         margin-left: -60px;
     }
     .navbar-toggler{
-        margin-right: -60px !important ;
+        margin-right: -40px !important ;
     }
     .nav-item{
         display: block;
@@ -991,7 +991,7 @@ padding-bottom: 6vw;
     }
     .about_img{
         margin-left: 50px;
-        width: 360px !important;
+        width: 300px !important;
         margin-bottom: 30px;
     }
     .about__thumbnail {
@@ -1085,7 +1085,7 @@ padding-bottom: 6vw;
     }
     .vlogCard_img{
         height: 40vw;
-        width: 170px;
+        width: 150px;
         padding-right: 0px;
     }
     .Tooglecard {
@@ -1112,7 +1112,7 @@ padding-bottom: 6vw;
         width: 425px;
     }
     .myMap iframe{
-        width: 425px;
+        width: 350px;
     }
     .c3 my_button{
         width: 425px;
