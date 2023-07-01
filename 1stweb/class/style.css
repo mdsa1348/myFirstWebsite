@@ -1127,10 +1127,7 @@ padding-bottom: 6vw;
         margin-bottom: 30px;
         
     }
-    .myMap{
-        height: fit-content;
-        width: auto;
-    }
+    
     .iframe{
         width: auto;
     }
@@ -1440,7 +1437,7 @@ padding-bottom: 6vw;
         margin-bottom: 30px;
         
     }
-    .myMap iframe{
+    .iframe{
         width: auto;
     }
     .c3 my_button{
