@@ -1313,7 +1313,7 @@ a.btn.btn-primary.blog_cards_btn {
             /* background: red; */
             top: 0;
             left: 0;
-            transform: translateX(17.5vw) translateY(45vw) !important;
+            transform: translateX(6.5vw) translateY(45vw) ;
         }
 
         50% {
@@ -1321,14 +1321,14 @@ a.btn.btn-primary.blog_cards_btn {
             left: 0;
             bottom: 0;
 
-            transform: translateX(17.5vw) translateY(85vw) !important;
+            transform: translateX(6.5vw) translateY(85vw) ;
         }
 
         100% {
             /*  background: red; */
             top: 0;
             left: 0;
-            transform: translateX(17.5vw) translateY(45vw);
+            transform: translateX(6.5vw) translateY(45vw);
         }
 
 
@@ -1400,7 +1400,7 @@ a.btn.btn-primary.blog_cards_btn {
     .card {
         
         width: auto;
-        height: 75vw ;
+        height: 80vw ;
        
         
     }
@@ -1414,7 +1414,7 @@ a.btn.btn-primary.blog_cards_btn {
     
         transition: .5s ease-in-out all;
         width: 60vw;
-        height: 60vh;
+        height: 40vh;
         object-fit: cover;
     }
     
